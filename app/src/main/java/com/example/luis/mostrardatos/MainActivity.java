@@ -167,4 +167,9 @@ public class MainActivity extends AppCompatActivity {
         Intent sig = new Intent(this,Main2Activity.class);
         startActivity(sig);
     }
+
+    public void mapa(View view) {
+        Intent mapa = new Intent(this,MapsActivity.class);
+        startActivity(mapa);
+    }
 }
